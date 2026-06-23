@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesús Pérez Funes | Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Iconos de tecnologías -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo">Jesús Pérez Funes</a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#experiencia">Experiencia como desarrollador</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#idiomas">Idiomas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO PRINCIPAL -->
+    <section id="inicio" class="hero">
+      <div class="hero-container">
+
+        <div class="hero-photo">
+          <img src="assets/jesus.jpeg" alt="Foto de Jesús Funes" />
+        </div>
+
+        <div class="hero-info">
+
+          <h1>Hola, soy Jesús Pérez Funes</h1>
+
+          <h2>Desarrollador Web Full Stack</h2>
+
+          <p>
+            <p>
+            <p>
+                Construyo aplicaciones web completas de principio a fin: frontend, backend,
+                bases de datos y despliegue, utilizando tecnologías web actuales y demandadas
+                para crear soluciones prácticas, claras y funcionales.
+            </p>
+            </p>
+          </p>
+
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn primary">Ver mis proyectos</a>
+
+            <a href="#contacto" class="btn secondary">Contactar conmigo</a>
+
+            <a 
+                href="assets/Curriculum-Jesus_Perez_Funes.pdf" 
+                class="btn cv-btn" 
+                download
+            >
+                📄 Descargar CV
+            </a>
+            </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section reveal">
+      <div class="section-header">
+        <span>1</span>
+        <h2>Sobre mí</h2>
+      </div>
+
+      <div class="about-card">
+
+<div class="about-card">
+
+    <p>
+    Soy un desarrollador web con perfil técnico completo, acostumbrado a entender
+    el proyecto tanto desde la parte visual como desde la estructura que lo hace
+    funcionar. Me gusta crear soluciones bien organizadas, útiles y pensadas para
+    que puedan mantenerse y evolucionar con facilidad.
+    </p>
+
+
+    <p>
+    Me considero un amante de la tecnología. Mi camino hasta llegar al desarrollo web
+    ha sido bastante natural como persona curiosa por el mundo tecnológico: primero me
+    formé en Sistemas Microinformáticos y Redes, después quise seguir creciendo y elegí
+    Sistemas de Telecomunicaciones e Informáticos para ampliar mis conocimientos en
+    informática, redes e infraestructura. Tras finalizarlo, todos los caminos me llevaron
+    al Desarrollo de Aplicaciones Web, que era mi meta principal desde que empecé a
+    formarme en tecnología.
+    </p>
+
+
+
+  <p>
+    Gracias a ese recorrido tengo una visión más completa de la tecnología, desde la
+    parte de sistemas, redes e infraestructura hasta la creación de aplicaciones web
+    completas. Me gusta aprender, resolver problemas y seguir creciendo dentro de un
+    equipo profesional de desarrollo.
+  </p>
+</div>
+
+      </div>
+    </section>
+<!-- TECNOLOGÍAS -->
+<section id="tecnologias" class="section reveal">
+  <div class="section-header">
+    <span>2</span>
+    <h2>Tecnologías que manejo</h2>
+  </div>
+
+  <div class="tech-categories">
+
+    <!-- FRONTEND -->
+    <div class="tech-category">
+      <div class="tech-category-header">
+        <h3>Frontend</h3>
+        <p>Interfaces web, diseño responsive y experiencia de usuario.</p>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card">
+          <i class="devicon-html5-plain colored"></i>
+          <h4>HTML</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-css3-plain colored"></i>
+          <h4>CSS</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <h4>JavaScript</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-typescript-plain colored"></i>
+          <h4>TypeScript</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-react-original colored"></i>
+          <h4>React</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-angularjs-plain colored"></i>
+          <h4>Angular</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-tailwindcss-original colored"></i>
+          <h4>Tailwind</h4>
+        </article>
+      </div>
+    </div>
+
+    <!-- BACKEND -->
+    <div class="tech-category">
+      <div class="tech-category-header">
+        <h3>Backend</h3>
+        <p>APIs REST, lógica de negocio, autenticación y conexión con bases de datos.</p>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card">
+          <i class="devicon-java-plain colored"></i>
+          <h4>Java</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-spring-original colored"></i>
+          <h4>Spring Boot</h4>
+        </article>
+        <article class="tech-card">
+        <i class="devicon-python-plain colored"></i>
+        <h4>Python</h4>
+        </article>
+
+        <article class="tech-card">
+        <i class="devicon-php-plain colored"></i>
+        <h4>PHP</h4>
+        </article>
+
+        <article class="tech-card">
+        <i class="devicon-laravel-original colored"></i>
+        <h4>Laravel</h4>
+        </article>
+
+        <article class="tech-card">
+          <div class="tech-emoji">🔐</div>
+          <h4>JWT</h4>
+        </article>
+
+        <article class="tech-card">
+          <div class="tech-emoji">🌐</div>
+          <h4>REST API</h4>
+        </article>
+      </div>
+    </div>
+
+    <!-- BASES DE DATOS -->
+    <div class="tech-category">
+      <div class="tech-category-header">
+        <h3>Bases de datos</h3>
+        <p>Diseño, consultas y gestión de datos en aplicaciones web.</p>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card">
+          <i class="devicon-mysql-plain colored"></i>
+          <h4>MySQL</h4>
+        </article>
+
+        <article class="tech-card">
+          <div class="tech-emoji">🗄️</div>
+          <h4>SQL</h4>
+        </article>
+      </div>
+    </div>
+
+    <!-- HERRAMIENTAS Y DESPLIEGUE -->
+    <div class="tech-category">
+      <div class="tech-category-header">
+        <h3>Herramientas y despliegue</h3>
+        <p>Control de versiones, repositorios, servidor y puesta en producción.</p>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card">
+          <i class="devicon-git-plain colored"></i>
+          <h4>Git</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-github-original"></i>
+          <h4>GitHub</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-nginx-original colored"></i>
+          <h4>Nginx</h4>
+        </article>
+
+        <article class="tech-card">
+          <i class="devicon-linux-plain colored"></i>
+          <h4>Linux / VPS</h4>
+        </article>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- FORMACIÓN -->
+<section id="formacion" class="section reveal">
+  <div class="section-header">
+    <span>3</span>
+    <h2>Formación</h2>
+  </div>
+
+  <div class="education-grid">
+
+    <article class="education-card education-main">
+      <div class="education-icon">💻</div>
+
+      <span class="education-badge">Formación principal</span>
+
+      <h3>Grado Superior: Desarrollo de Aplicaciones Web</h3>
+
+      <p>
+        Formación especializada en desarrollo web, programación, bases de datos,
+        interfaces, servidores y despliegue de aplicaciones. Es la formación más
+        relacionada con mi perfil actual como desarrollador web full stack.
+      </p>
+    </article>
+
+    <article class="education-card">
+      <div class="education-icon">📡</div>
+
+      <h3>Grado Superior: Sistemas de Telecomunicaciones e Informáticos</h3>
+
+      <p>
+        Formación técnica orientada a sistemas informáticos, redes, telecomunicaciones,
+        infraestructura tecnológica y mantenimiento de sistemas.
+      </p>
+    </article>
+
+    <article class="education-card">
+      <div class="education-icon">🛠️</div>
+
+      <h3>Grado Medio: Sistemas Microinformáticos y Redes</h3>
+
+      <p>
+        Formación centrada en montaje, configuración y mantenimiento de equipos,
+        redes locales, sistemas operativos y soporte técnico informático.
+      </p>
+    </article>
+
+  </div>
+</section>
+<!-- EXPERIENCIA -->
+<section id="experiencia" class="section reveal">
+  <div class="section-header">
+    <span>4</span>
+    <h2>Experiencia como desarrollador</h2>
+  </div>
+
+  <article class="experience-featured-card">
+
+    <div class="experience-top">
+      <div class="experience-company">
+        <div class="experience-logo">🌵</div>
+
+        <div>
+          <h3>Desarrollador Web Full Stack</h3>
+          <p>Cactus Lab (Sevilla)</p>
+        </div>
+      </div>
+
+      <div class="experience-date">
+        <span>2026</span>
+      </div>
+    </div>
+
+    <div class="experience-body">
+      <div class="experience-description">
+        <h4>Proyecto desarrollado</h4>
+        <p>
+          Participé en el desarrollo de una aplicación web de gestión interna para
+          Cactus Lab, trabajando tanto en la parte visual del frontend como en la
+          lógica del backend, base de datos, autenticación y despliegue.
+        </p>
+      </div>
+
+      <div class="experience-highlights">
+        <div class="highlight-card">
+          <span>⚛️</span>
+          <p>Desarrollo de interfaces con React, TypeScript y Tailwind.</p>
+        </div>
+
+        <div class="highlight-card">
+          <span>☕</span>
+          <p>Creación de funcionalidades backend con Java y Spring Boot.</p>
+        </div>
+
+        <div class="highlight-card">
+          <span>🗄️</span>
+          <p>Gestión de datos, entidades, relaciones y consultas con MySQL.</p>
+        </div>
+
+        <div class="highlight-card">
+          <span>🔐</span>
+          <p>Implementación de autenticación mediante JWT.</p>
+        </div>
+
+        <div class="highlight-card">
+          <span>✉️</span>
+          <p>Automatización de correos electrónicos desde la aplicación.</p>
+        </div>
+
+        <div class="highlight-card">
+          <span>🚀</span>
+          <p>Despliegue del proyecto en servidor VPS utilizando Nginx.</p>
+        </div>
+      </div>
+    </div>
+
+  </article>
+</section>
+
+
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section reveal">
+      <div class="section-header">
+        <span>5</span>
+        <h2>Proyectos destacados</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card featured">
+        <div>
+            <div class="project-top">
+            <span class="project-label">Proyecto principal</span>
+            <span class="project-status upcoming">🚧 Próximamente</span>
+            </div>
+
+            <h3>Cactus Gestión</h3>
+
+            <p>
+            Aplicación web para la gestión de proyectos, tareas, clientes, miembros
+            del equipo y registro de horas.
+            </p>
+
+            <div class="project-techs">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>JWT</span>
+            <span>Nginx</span>
+            </div>
+        </div>
+
+        <div class="project-links">
+            <a href="#" class="disabled-link" aria-disabled="true">Web no disponible</a>
+            <a href="#" target="_blank">Código</a>
+        </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-label">Portfolio</span>
+          <h3>Web personal</h3>
+          <p>
+            Portfolio desarrollado con HTML, CSS y JavaScript para mostrar mi perfil,
+            tecnologías y proyectos.
+          </p>
+
+          <div class="project-techs">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/Funes98/PortfolioJP" target="_blank">Código</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <!-- IDIOMAS -->
+<section id="idiomas" class="section reveal">
+  <div class="section-header">
+    <span>6</span>
+    <h2>Idiomas</h2>
+  </div>
+
+  <div class="languages-grid">
+    <article class="language-card">
+      <div class="language-icon">🇪🇸</div>
+
+      <div>
+        <h3>Español</h3>
+        <p>Idioma nativo</p>
+      </div>
+    </article>
+
+    <article class="language-card">
+      <div class="language-icon">🇬🇧</div>
+
+      <div>
+        <h3>Inglés</h3>
+        <p>Nivel B1</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section contact-section reveal">
+      <div class="contact-card">
+        <h3>¿Hablamos?</h3>
+
+        <p class="contact-intro">
+            Puedes contactar conmigo directamente por correo o visitar mis perfiles.
+        </p>
+
+        <div class="contact-buttons">
+        <a href="mailto:jesusfunes97@gmail.com" class="contact-email">
+            ✉️ jesusfunes97@gmail.com
+        </a>
+
+        <a href="tel:+34617808492" class="contact-phone">
+            📞 617 808 492
+        </a>
+
+        <a 
+            href="https://www.linkedin.com/in/jes%C3%BAs-p%C3%A9rez-funes-6ba715229/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            LinkedIn
+        </a>
+
+        <a 
+            href="https://github.com/Funes98" 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            GitHub
+        </a>
+        </div>
+        </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Jesús Pérez Funes. Portfolio personal.</p>
+  </footer>
+
+  <a href="#inicio" class="scroll-top" id="scrollTopBtn" aria-label="Volver arriba">
+  ↑
+</a>
+  <script src="script.js"></script>
+</body>
+</html>
